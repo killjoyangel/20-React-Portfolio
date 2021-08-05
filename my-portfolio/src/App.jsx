@@ -12,7 +12,7 @@ function App() {
   const [menuOpen, setMenuOpen] = useState(false)
   return (
     <div className="app">
-    <Navbar/>
+ <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
     <div className="sections">
       <Intro/>
       <Portfolio/>

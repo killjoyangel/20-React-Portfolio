@@ -8,6 +8,7 @@
     position: fixed;
     top: 0;
     z-index: 2;
+    transition: all 1s ease;
 
     .wrapper{
         padding:10px 30px;
@@ -64,7 +65,7 @@
        }
      }
      &.active{
-        background-color: aqua;
+        background-color: rgb(18, 221, 221);
         color: white;
         .hamburger{
             span{
