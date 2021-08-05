@@ -36,7 +36,7 @@ export default function Navbar() {
 
 
                 <div className="right">
-                <div className="hamburger"
+                <div className="hamburger">
             <span className="line1"></span>
             <span className="line2"></span>
             <span className="line3"></span>
