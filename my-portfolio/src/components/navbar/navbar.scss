@@ -16,7 +16,29 @@
         justify-content: space-between;
 
         .left{
-            
+            display: flex;
+            align-items: center;
+
+            .logo{
+                font-size: 35px;
+                text-decoration: none;
+                color: inherit;
+                font-family: 'Sacramento', cursive;
+                margin-right: 100px;
+            }
+
+            .itemContainer{
+                display: flex;
+                align-items: center;
+                margin: left 30px;
+                font-size: 30px;
+
+                .icon{
+                  font-size: 35px;  
+                  margin-right: 50px;
+                }
+
+            }
         }
     }
 }
