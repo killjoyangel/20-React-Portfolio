@@ -3,7 +3,7 @@ import {Email, LinkedIn, GitHub, Call} from "@material-ui/icons"
 
 export default function Navbar() {
     return (
-        <div className="navbar">
+        <div className="navbar active">
             <div className="wrapper">
                 <div className="left">
                     <span className="logo">Killjoy Designs: By Ariel Marchand</span>
