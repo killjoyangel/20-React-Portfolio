@@ -1,0 +1,70 @@
+@import "../../global.scss";
+
+.intro {
+  background-color:#94eaea;
+  display: flex;
+  overflow: hidden;
+  height: 867px;
+
+  .left {
+    flex: 0.45;
+
+
+    .imgContainer {
+        width: 500px;
+        height: 500px;
+        overflow: hidden;
+        margin-top: 150px;
+        border-radius: 50%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    
+    }
+
+    img {
+      height: 80%;
+      border-radius: 50%;
+    }
+  }
+
+
+  .right {
+    flex: 0.5;
+    position: relative;
+
+
+    .wrapper {
+      width: 100%;
+      height: 867px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      h3{
+          color: white;
+          font-size: 35px;
+          font-family: 'Amatic SC', cursive;
+          align-items: center;
+      }
+      
+      h1{
+        font-family: 'Sacramento', cursive;
+        font-size: 50px;
+        color: white;
+        font-weight: 10px;
+      }
+      
+      .portLink{
+        font-size: 25px;
+        text-align: center;
+        animation: blink 3s infinite;
+    }
+    @keyframes blink {
+        100%{
+          opacity: 0;
+        }
+  }
+}
+}
+}

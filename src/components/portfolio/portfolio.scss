@@ -1,0 +1,46 @@
+@import "../../global.scss";
+
+.portfolio {
+  background-color: lightblue;
+  color: $mainColor;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+
+
+.itemContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+
+
+    .item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        margin: 10px 10px 10px 10px;
+
+
+        img{
+            margin: 10px 10px 10px 10px;
+            border-radius: 20%;
+            overflow: hidden;
+        }
+        h3{
+           text-align: center;
+        }
+        a{
+            display: flex;
+            flex-direction: column;
+            margin: 10px 10px 10px 10px;
+        }
+    }
+   
+}
+ 
+  }
